@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<instance xmlns="http://www.exelearning.org/content/v0.3" reference="4" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="6" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
   <unicode value="Rubrica implantacion de aplicaciones web"></unicode>
@@ -69,7 +69,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value=""></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -85,7 +85,7 @@
   <string role="key" value="_name"></string>
   <unicode value="rubrica_implantacion_aplicaciones_web"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="1"></int>
+  <int value="2"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="1"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -98,6 +98,137 @@
      <string role="key" value="idevices"></string>
      <list>
       <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Criterios de Evaluación."></unicode>
+        <string role="key" value="_attributes"></string>
+        <list>
+         <tuple>
+          <string value="title"></string>
+          <list>
+           <string value="Title"></string>
+           <int value="0"></int>
+           <int value="0"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="category"></string>
+          <list>
+           <string value="Category"></string>
+           <int value="0"></int>
+           <int value="1"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="css-class"></string>
+          <list>
+           <string value="CSS class"></string>
+           <int value="0"></int>
+           <int value="2"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="icon"></string>
+          <list>
+           <string value="Icon"></string>
+           <int value="0"></int>
+           <int value="3"></int>
+          </list>
+         </tuple>
+        </list>
+        <string role="key" value="_author"></string>
+        <string value=""></string>
+        <string role="key" value="_iDeviceDir"></string>
+        <string value="text"></string>
+        <string role="key" value="_purpose"></string>
+        <string value=""></string>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="_typeName"></string>
+        <unicode value="Text"></unicode>
+        <string role="key" value="_valid"></string>
+        <bool value="1"></bool>
+        <string role="key" value="class_"></string>
+        <unicode value="text"></unicode>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="1"></int>
+        <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+        <int value="1"></int>
+        <string role="key" value="fields"></string>
+        <list>
+         <instance class="exe.engine.field.TextAreaField" reference="2">
+          <dictionary>
+           <string role="key" value="_id"></string>
+           <unicode value="120_2"></unicode>
+           <string role="key" value="_idevice"></string>
+           <reference key="1"></reference>
+           <string role="key" value="_instruc"></string>
+           <string value=""></string>
+           <string role="key" value="_name"></string>
+           <string value=""></string>
+           <string role="key" value="anchor_names"></string>
+           <list></list>
+           <string role="key" value="content_w_resourcePaths"></string>
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Se evalúan los criterios de realización específicos del módulo extraídos del  Certificado de Profesionalidad.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No Apto. Sería &lt;strong&gt;no sabe hacerlo&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Apto, Sufinciente. &lt;strong&gt;sería sabe hacerlo con ayuda.&lt;/strong&gt; &lt;/li&gt;
+&lt;li&gt;Apto, Notable. &lt;strong&gt;sabe hacerlo autonomamente&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Apto, Sobresalidente. &lt;strong&gt;sabe hacerlo y enseñar a los demás a hacerlo&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;"></unicode>
+           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+           <int value="4"></int>
+           <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="htmlTag"></string>
+           <string value="div"></string>
+           <string role="key" value="images"></string>
+           <instance class="exe.engine.galleryidevice.GalleryImages">
+            <dictionary>
+             <string role="key" value=".listitems"></string>
+             <list></list>
+             <string role="key" value="idevice"></string>
+             <reference key="2"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="intlinks_to_anchors"></string>
+           <dictionary></dictionary>
+           <string role="key" value="nextImageId"></string>
+           <int value="0"></int>
+           <string role="key" value="parentNode"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="icon"></string>
+        <unicode value=""></unicode>
+        <string role="key" value="id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="ideviceCategory"></string>
+        <unicode value="Text and Tasks"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="nextFieldId"></string>
+        <int value="3"></int>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parentNode"></string>
+        <reference key="3"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list></list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.jsidevice.JsIdevice" reference="4">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Rubric"></unicode>
@@ -158,18 +289,20 @@
         <int value="1"></int>
         <string role="key" value="fields"></string>
         <list>
-         <instance class="exe.engine.field.TextAreaField" reference="2">
+         <instance class="exe.engine.field.TextAreaField" reference="5">
           <dictionary>
            <string role="key" value="_id"></string>
            <unicode value="120_2"></unicode>
            <string role="key" value="_idevice"></string>
-           <reference key="1"></reference>
+           <reference key="4"></reference>
            <string role="key" value="_instruc"></string>
            <string value=""></string>
            <string role="key" value="_name"></string>
            <string value=""></string>
            <string role="key" value="anchor_names"></string>
            <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
            <unicode content="true" value="&lt;table class='exe-table'&gt;&lt;caption&gt;Rúbrica de Implantación de Aplicaciones Web en diferentes entornos&lt;/caption&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&amp;nbsp;&lt;/th&gt;&lt;th&gt;4 Sabe hacerlo y enseñar a hacerlo a sus compañeros&lt;/th&gt;&lt;th&gt;3 Sabe realizarlo sin ayuda&lt;/th&gt;&lt;th&gt;2 Sabe realizarlo con ayuda&lt;/th&gt;&lt;th&gt;1 No sabe hacerlo&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;CR1.1 Los requisitos de instalación del desarrollo realizado, en lo que respecta a la parte cliente y a la parte servidor, se expresan claramente en lo que respecta a gestión del sistema de archivos y necesidades de administración según los parámetros de instalación de aplicaciones de la organización.&lt;/th&gt;&lt;td&gt;X &lt;span&gt;(0.7)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.35)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(1.25)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;CR1.2 Los niveles de seguridad de los usuarios de la aplicación se configuran para un uso adecuado de la misma según la procedencia: internet, intranet o extranet&lt;/th&gt;&lt;td&gt;X &lt;span&gt;(0.7)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.35)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(1.25)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;CR1.3 Los paquetes de instalación se crean y configuran adecuadamente para proceder a su distribución según las normas de implantación de la organización.&lt;/th&gt;&lt;td&gt;X &lt;span&gt;(0.7)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.35)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(1.25)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;CR1.4 Los procesos y scripts de instalación de la aplicación se crean y configuran según las especificaciones de implantación de la organización.&lt;/th&gt;&lt;td&gt;X &lt;span&gt;(0.7)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.35)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;CR1.5 La documentación de los paquetes y scripts de instalación de la aplicación se realiza según los parámetros de la organización.&lt;/th&gt;&lt;td&gt;X &lt;span&gt;(0.7)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.35)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;CR1.6 Los procesos de instalación son verificados y comprobado su funcionamiento según las normas de calidad de la organización.&lt;/th&gt;&lt;td&gt;X &lt;span&gt;(0.7)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.35)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;CR2.1 La documentación se redacta de acuerdo con las normas y herramientas de documentación y atendiendo a las especificaciones de calidad establecidas en la organización y asumiendo las especificaciones de ergonomía adecuadas.&lt;/th&gt;&lt;td&gt;X &lt;span&gt;(0.7)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.35)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;CR2.2 Las herramientas de generación de documentación se utilizan para obtener productos adecuados según las normas de documentación y calidad de la organizació&lt;/th&gt;&lt;td&gt;X &lt;span&gt;(0.7)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.35)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;CR2.3 La documentación se desarrolla teniendo en cuenta el control de versiones y su posterior actualización y mantenimiento según las especificaciones de diseño y normas de desarrollo de la empresa garantizando la comprensión.&lt;/th&gt;&lt;td&gt;X &lt;span&gt;(0.7)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.35)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;CR3.1 Los juegos de pruebas y sus escenarios son dispuestos y controlados para la realización de las mismas siguiendo especificaciones de diseño de los componentes y normativa de calidad de la organización.&lt;/th&gt;&lt;td&gt;X &lt;span&gt;(0.7)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.35)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;CR3.2 Las pruebas estructurales y funcionales de los componentes se realizan con los juegos de datos y los escenarios dispuestos según especificaciones del diseño del componente y normativa de calidad de la organización.&lt;/th&gt;&lt;td&gt;X &lt;span&gt;(0.7)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.35)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;CR3.3 Las pruebas de integración del componente y del acceso a datos y otros servicios se realizan atendiendo a especificaciones funcionales y a las normas de calidad de la organización.&lt;/th&gt;&lt;td&gt;X &lt;span&gt;(0.7)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.35)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;CR3.4 La documentación de las pruebas, tanto en lo que afecta a la preparación, ejecución y resultado de las mismas, se realiza según las especificaciones de desarrollo y normativa de calidad de la organización.&lt;/th&gt;&lt;td&gt;X &lt;span&gt;(0.7)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.35)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;CR3.5 Las pruebas se realizan atendiendo al control de versiones de los componentes en verificación y de las propias pruebas.&lt;/th&gt;&lt;td&gt;X &lt;span&gt;(0.7)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0.35)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;X &lt;span&gt;(0)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;ul class=&quot;exe-rubric-strings&quot;&gt;&lt;li class=&quot;activity&quot;&gt;Actividad&lt;/li&gt;&lt;li class=&quot;name&quot;&gt;Nombre&lt;/li&gt;&lt;li class=&quot;date&quot;&gt;Fecha&lt;/li&gt;&lt;li class=&quot;score&quot;&gt;Puntuación&lt;/li&gt;&lt;li class=&quot;notes&quot;&gt;Notas&lt;/li&gt;&lt;li class=&quot;reset&quot;&gt;Reiniciar&lt;/li&gt;&lt;li class=&quot;print&quot;&gt;Imprimir&lt;/li&gt;&lt;li class=&quot;apply&quot;&gt;Aplicar&lt;/li&gt;&lt;li class=&quot;newWindow&quot;&gt;Ventana nueva&lt;/li&gt;&lt;/ul&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -186,7 +319,7 @@
              <string role="key" value=".listitems"></string>
              <list></list>
              <string role="key" value="idevice"></string>
-             <reference key="2"></reference>
+             <reference key="5"></reference>
             </dictionary>
            </instance>
            <string role="key" value="intlinks_to_anchors"></string>
@@ -194,7 +327,7 @@
            <string role="key" value="nextImageId"></string>
            <int value="0"></int>
            <string role="key" value="parentNode"></string>
-           <none></none>
+           <reference key="3"></reference>
           </dictionary>
          </instance>
         </list>
@@ -226,7 +359,7 @@
      <string role="key" value="_id"></string>
      <unicode value="0"></unicode>
      <string role="key" value="_package"></string>
-     <reference key="4"></reference>
+     <reference key="6"></reference>
      <string role="key" value="anchor_fields"></string>
      <list></list>
      <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
